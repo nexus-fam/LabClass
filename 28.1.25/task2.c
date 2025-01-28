@@ -31,6 +31,6 @@ read:
         d *= (-1);
         float m = -b / (2 * a), n = sqrt(d) / (2 * a);
         printf("imaginary solution\n");
-        printf("x1 = %.2f + i%.3f\nx2 = %.3f - i%.3f", m, n, m, n);
+        printf("x1 = %.3f + i%.3f\nx2 = %.3f - i%.3f", m, n, m, n);
     }
 }
