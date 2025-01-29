@@ -19,7 +19,7 @@ int main(){
         }
         salary +=increment;
     printf("Increment:%.3f\nTotal_salary:%.3f", increment, salary);
-    
-    }
     return 0;
+    }
+    
 }
